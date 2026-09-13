@@ -3,6 +3,7 @@ from database import init_db
 from chat_overlay import render_chat_overlay
 from buy_button import render_buy_button
 
+
 st.set_page_config(page_title="Stock & Crypto Checker", layout="wide")
 
 init_db()
