@@ -2,6 +2,7 @@ import streamlit as st
 from database import get_search_history
 
 
+
 def _build_history_summary():
     rows = get_search_history()
     if not rows:
