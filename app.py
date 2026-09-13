@@ -15,7 +15,7 @@ history = st.Page("history_page.py", title="History", icon="🕘")
 
 pg = st.navigation(
     [home, stocks, crypto, index_funds, history],
-    position="top"
+    position="high"
 )
 
 pg.run()
