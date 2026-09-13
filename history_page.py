@@ -8,6 +8,7 @@ st.title("Search History")
 
 top_col1, top_col2 = st.columns([1, 1])
 
+
 with top_col1:
     if st.button("Refresh History"):
         st.rerun()
