@@ -1,5 +1,5 @@
 # hacklanta-stocks-project
-hacklanta - stock analysis program by THEUCHIHA.
+hacklanta - stock analysis program by Kridhay, Nikhil, Akhil, and Sanjay.
 
 Overview
 This stack is designed for beginners who want to build a simple stock analysis platform with room to grow into AI-powered features. It focuses on ease of use, minimal setup, and widely supported tools while still allowing you to scale into more advanced analytics later.
