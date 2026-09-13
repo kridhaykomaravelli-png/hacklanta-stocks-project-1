@@ -9,6 +9,7 @@ def score_stock(info, hist):
     revenue_growth = info.get("revenueGrowth")
     debt_to_equity = info.get("debtToEquity")
 
+    
     if current_price > avg_price:
         score += 1
         reasons.append("Price is above its average for the selected period.")
