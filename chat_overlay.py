@@ -3,6 +3,7 @@ from database import get_search_history
 
 
 def _build_history_summary():
+    
     rows = get_search_history()
     if not rows:
         return "There is no saved search history yet."
