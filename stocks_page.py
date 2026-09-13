@@ -91,6 +91,7 @@ def render_candlestick_chart(hist, key_prefix):
 st.title("Stock Buy Checker")
 st.write("Educational only — not financial advice.")
 
+
 ticker = st.text_input("Enter a stock ticker", "AAPL").upper()
 period = st.selectbox(
     "Choose timeframe",
