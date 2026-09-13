@@ -13,6 +13,7 @@ def render_buy_button():
 
     gif_base64 = base64.b64encode(gif_path.read_bytes()).decode("utf-8")
 
+    
     popup_html = f"""
     <!DOCTYPE html>
     <html>
