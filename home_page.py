@@ -4,6 +4,7 @@ st.title("Stock, Crypto & Index Fund Checker")
 st.write("Use the navigation bar at the top to switch between pages.")
 st.write("Educational only — not financial advice.")
 
+
 st.subheader("What this app does")
 st.write("- Search stocks")
 st.write("- Search crypto")
