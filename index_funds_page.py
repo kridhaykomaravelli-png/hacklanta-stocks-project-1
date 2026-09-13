@@ -7,6 +7,7 @@ from database import init_db, save_search
 init_db()
 
 
+
 def format_volume(value):
     if value is None:
         return "N/A"
